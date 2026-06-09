@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Details | Mon National College</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mon: {
+                            crimson: '#8b1c1c',
+                            maroon: '#601010',
+                            gold: '#d97706',
+                            amber: '#f59e0b',
+                            cream: '#fdfbf7',
+                        },
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-mon-cream text-slate-800 font-sans antialiased scroll-smooth">
+
+    <!-- Navigation Header -->
+    <nav class="bg-white border-b border-orange-100 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <div class="w-10 h-10 bg-mon-crimson rounded-full flex items-center justify-center text-white font-bold text-lg shadow-sm">M</div>
+                    <div class="flex flex-col">
+                        <span class="text-md font-bold text-mon-maroon tracking-wide leading-tight">MON NATIONAL COLLEGE</span>
+                        <span class="text-xs font-medium text-slate-500 uppercase tracking-widest">Higher Education Sector</span>
+                    </div>
+                </div>
+                <div class="hidden lg:flex space-x-6 text-sm font-semibold text-slate-600">
+                    <a href="#overview" class="hover:text-mon-crimson transition">Overview</a>
+                    <a href="#structure" class="hover:text-mon-crimson transition">Curriculum</a>
+                    <a href="#careers" class="hover:text-mon-crimson transition">Careers</a>
+                    <a href="#faq" class="hover:text-mon-crimson transition">FAQ</a>
+                </div>
+                <div>
+                    <a href="#apply" class="bg-mon-crimson hover:bg-mon-maroon text-white px-5 py-2.5 rounded-xl text-sm font-bold shadow-sm transition-all tracking-wide">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Banner -->
+    <header class="bg-gradient-to-br from-mon-maroon via-mon-crimson to-red-950 text-white pt-24 pb-32 relative">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-mon-gold/20 via-transparent to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-mon-gold/20 text-mon-amber border border-mon-gold/30 mb-6 uppercase tracking-wider">
+                Associate of Arts Degree
+            </span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                Leadership & <span class="text-transparent bg-clip-text bg-gradient-to-r from-mon-amber to-orange-200">Community Management</span>
+            </h1>
+            <p class="text-base sm:text-lg text-red-100 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Empowering the next generation of civil society administrators, regional educators, and grassroots leaders through native, community-based self-help frameworks.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#apply" class="bg-mon-gold hover:bg-mon-amber text-slate-900 px-8 py-3.5 rounded-xl font-bold transition shadow-md text-sm tracking-wide">Start Your Application</a>
+                <a href="#structure" class="bg-transparent border border-red-300 hover:border-white text-red-100 px-8 py-3.5 rounded-xl font-bold transition text-sm">View Curriculum</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Quick Facts -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-20 mb-16">
+        <div class="bg-white rounded-2xl shadow-xl border border-orange-50 p-6 sm:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-x divide-orange-100">
+            <div>
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Duration</p>
+                <p class="text-lg font-black text-mon-maroon">2 Years</p>
+            </div>
+            <div>
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Total Credits</p>
+                <p class="text-lg font-black text-mon-maroon">60 Credits</p>
+            </div>
+            <div>
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Instruction</p>
+                <p class="text-lg font-black text-mon-maroon">Mon / Burmese</p>
+            </div>
+            <div>
+                <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Field Work</p>
+                <p class="text-lg font-black text-mon-maroon">Included</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Program Overview -->
+    <section id="overview" class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
+            <h2 class="text-3xl font-bold text-mon-maroon tracking-tight">Program Overview</h2>
+            <div class="h-1 w-20 bg-mon-gold rounded-full mx-auto"></div>
+            <p class="text-slate-700 leading-relaxed text-lg">
+                Operating under the vision of the Mon National Education Committee (MNEC), this program is engineered directly for community service. It addresses the critical administrative needs of local civil society organizations, self-help committees, and decentralized education infrastructure.
+            </p>
+            <p class="text-slate-700 leading-relaxed">
+                By blending core management essentials with regional conflict resolution strategies, the curriculum ensures that students remain deeply rooted in Mon cultural contexts while acquiring the practical, modern administrative skills necessary to cooperate with international development partners.
+            </p>
+        </div>
+    </section>
+
+    <!-- 4. Why Choose MNC -->
+    <section class="py-16 bg-white border-y border-orange-100 mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Why Study at Mon National College?</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-mon-cream rounded-xl border border-orange-50">
+                    <div class="w-12 h-12 bg-mon-maroon text-white rounded-lg flex items-center justify-center text-xl mb-4">🗣️</div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">Mother-Tongue Education</h3>
+                    <p class="text-sm text-slate-600">Learn complex organizational and academic concepts in Mon language, preserving cultural identity while mastering modern skills.</p>
+                </div>
+                <div class="p-6 bg-mon-cream rounded-xl border border-orange-50">
+                    <div class="w-12 h-12 bg-mon-maroon text-white rounded-lg flex items-center justify-center text-xl mb-4">🤝</div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">Community-First Focus</h3>
+                    <p class="text-sm text-slate-600">Our curriculum is directly aligned with the real-world needs of Mon State’s civil society, schools, and self-help healthcare systems.</p>
+                </div>
+                <div class="p-6 bg-mon-cream rounded-xl border border-orange-50">
+                    <div class="w-12 h-12 bg-mon-maroon text-white rounded-lg flex items-center justify-center text-xl mb-4">🌍</div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-2">Practical Field Experience</h3>
+                    <p class="text-sm text-slate-600">Don't just learn theory. Every student completes a mandatory field practicum, working directly with NGOs or local schools before graduation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Learning Outcomes -->
+    <section id="outcomes" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-mon-maroon tracking-tight">Learning Outcomes</h2>
+            <p class="text-slate-600 mt-2">What you will achieve by the end of this program.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:border-mon-gold transition">
+                <div class="text-mon-gold font-black text-2xl mb-2">01</div>
+                <h3 class="font-bold text-slate-900 mb-2">Project Design</h3>
+                <p class="text-sm text-slate-600">Plan, budget, and manage self-sustaining development projects customized for regional needs.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:border-mon-gold transition">
+                <div class="text-mon-gold font-black text-2xl mb-2">02</div>
+                <h3 class="font-bold text-slate-900 mb-2">Administration</h3>
+                <p class="text-sm text-slate-600">Execute practical bookkeeping, transparent resource tracking, and NGO operational logistics.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:border-mon-gold transition">
+                <div class="text-mon-gold font-black text-2xl mb-2">03</div>
+                <h3 class="font-bold text-slate-900 mb-2">Multilingual Advocacy</h3>
+                <p class="text-sm text-slate-600">Manage community communications balancing Mon language assets alongside regional and English requirements.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:border-mon-gold transition">
+                <div class="text-mon-gold font-black text-2xl mb-2">04</div>
+                <h3 class="font-bold text-slate-900 mb-2">Conflict Resolution</h3>
+                <p class="text-sm text-slate-600">Facilitate constructive public discussion and use mediation approaches to align community safety objectives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Program Structure Timeline with Course Codes -->
+    <section id="structure" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-200">Program Structure</h2>
+                <p class="text-slate-400 mt-2">Your 4-semester academic roadmap (60 Credits Total).</p>
+            </div>
+            
+            <div class="relative border-l-2 border-mon-gold/40 pl-8 space-y-12 ml-4 lg:ml-8">
+                
+                <!-- Semester 1 -->
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-0 bg-mon-crimson text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold border-4 border-slate-900">1</span>
+                    <div class="flex flex-wrap items-baseline justify-between mb-2">
+                        <h4 class="font-bold text-lg text-mon-amber">Semester 1: Identity & Foundations</h4>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider bg-slate-800 px-2 py-1 rounded">15 Credits</span>
+                    </div>
+                    <p class="text-sm text-slate-300 mb-4">Grounding civic perspectives through deep studies of regional social movements, Mon literature, and introductory public speaking.</p>
+                    
+                    <!-- Sem 1 Courses Table -->
+                    <div class="bg-slate-800/60 rounded-lg border border-slate-700 overflow-x-auto">
+                        <table class="w-full text-left text-xs sm:text-sm">
+                            <thead class="bg-slate-800 text-slate-400 border-b border-slate-700">
+                                <tr>
+                                    <th class="p-3 font-semibold w-24">Code</th>
+                                    <th class="p-3 font-semibold">Course Name</th>
+                                    <th class="p-3 font-semibold text-center w-20">Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700/50 text-slate-300">
+                                <tr><td class="p-3 text-mon-amber font-mono">MON 101</td><td class="p-3">Advanced Mon Language & Literature</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">HIS 101</td><td class="p-3">History of the Mon People & Southeast Asia</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">COM 101</td><td class="p-3">Public Speaking & Community Communication</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">SOC 101</td><td class="p-3">Introduction to Civic Engagement</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">ENG 101</td><td class="p-3">Foundation English for Administration I</td><td class="p-3 text-center">3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Semester 2 -->
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-0 bg-mon-crimson text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold border-4 border-slate-900">2</span>
+                    <div class="flex flex-wrap items-baseline justify-between mb-2">
+                        <h4 class="font-bold text-lg text-mon-amber">Semester 2: Management Frameworks</h4>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider bg-slate-800 px-2 py-1 rounded">15 Credits</span>
+                    </div>
+                    <p class="text-sm text-slate-300 mb-4">Acquiring fundamental tools for financial ledger accountability, resource allocation, and organizational setup structures for civil society.</p>
+                    
+                    <!-- Sem 2 Courses Table -->
+                    <div class="bg-slate-800/60 rounded-lg border border-slate-700 overflow-x-auto">
+                        <table class="w-full text-left text-xs sm:text-sm">
+                            <thead class="bg-slate-800 text-slate-400 border-b border-slate-700">
+                                <tr>
+                                    <th class="p-3 font-semibold w-24">Code</th>
+                                    <th class="p-3 font-semibold">Course Name</th>
+                                    <th class="p-3 font-semibold text-center w-20">Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700/50 text-slate-300">
+                                <tr><td class="p-3 text-mon-amber font-mono">MGT 101</td><td class="p-3">Principles of Management & Leadership</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">ACC 101</td><td class="p-3">NGO Bookkeeping & Basic Accounting</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">HRM 101</td><td class="p-3">Volunteer & Human Resource Management</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">POL 101</td><td class="p-3">Intro to Public Policy & Governance</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">ENG 102</td><td class="p-3">Foundation English for Administration II</td><td class="p-3 text-center">3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Semester 3 -->
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-0 bg-mon-crimson text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold border-4 border-slate-900">3</span>
+                    <div class="flex flex-wrap items-baseline justify-between mb-2">
+                        <h4 class="font-bold text-lg text-mon-amber">Semester 3: Strategic Planning</h4>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider bg-slate-800 px-2 py-1 rounded">15 Credits</span>
+                    </div>
+                    <p class="text-sm text-slate-300 mb-4">Practical training to formulate community grant requests, organize baseline metrics, and coordinate localized field surveys.</p>
+                    
+                    <!-- Sem 3 Courses Table -->
+                    <div class="bg-slate-800/60 rounded-lg border border-slate-700 overflow-x-auto">
+                        <table class="w-full text-left text-xs sm:text-sm">
+                            <thead class="bg-slate-800 text-slate-400 border-b border-slate-700">
+                                <tr>
+                                    <th class="p-3 font-semibold w-24">Code</th>
+                                    <th class="p-3 font-semibold">Course Name</th>
+                                    <th class="p-3 font-semibold text-center w-20">Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700/50 text-slate-300">
+                                <tr><td class="p-3 text-mon-amber font-mono">PRJ 201</td><td class="p-3">Grant Writing & Project Proposal Design</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">RES 201</td><td class="p-3">Community Survey & Field Research Methods</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">PCS 201</td><td class="p-3">Peacebuilding & Conflict Resolution</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">CST 201</td><td class="p-3">IT & Digital Literacy for Non-Profits</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">MGT 202</td><td class="p-3">Strategic Planning for Civil Society</td><td class="p-3 text-center">3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Semester 4 -->
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-0 bg-mon-crimson text-white text-sm w-8 h-8 rounded-full flex items-center justify-center font-bold border-4 border-slate-900">4</span>
+                    <div class="flex flex-wrap items-baseline justify-between mb-2">
+                        <h4 class="font-bold text-lg text-mon-amber">Semester 4: Field Practicum</h4>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider bg-slate-800 px-2 py-1 rounded">15 Credits</span>
+                    </div>
+                    <p class="text-sm text-slate-300 mb-4">Full-semester immersive work environment within Mon National Schools or regional health centers to manage real, live operations.</p>
+                    
+                    <!-- Sem 4 Courses Table -->
+                    <div class="bg-slate-800/60 rounded-lg border border-slate-700 overflow-x-auto">
+                        <table class="w-full text-left text-xs sm:text-sm">
+                            <thead class="bg-slate-800 text-slate-400 border-b border-slate-700">
+                                <tr>
+                                    <th class="p-3 font-semibold w-24">Code</th>
+                                    <th class="p-3 font-semibold">Course Name</th>
+                                    <th class="p-3 font-semibold text-center w-20">Credits</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700/50 text-slate-300">
+                                <tr class="bg-slate-800/40"><td class="p-3 text-mon-amber font-mono font-bold border-l-2 border-mon-amber">PRJ 299</td><td class="p-3 font-bold">Field Practicum & Community Deployment</td><td class="p-3 text-center font-bold">6</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">SEM 299</td><td class="p-3">Capstone Seminar & Final Defense</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">ETH 201</td><td class="p-3">Administrative Ethics & Accountability</td><td class="p-3 text-center">3</td></tr>
+                                <tr><td class="p-3 text-mon-amber font-mono">MGT 203</td><td class="p-3">Crisis Management & Operations Logistics</td><td class="p-3 text-center">3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Career Prospects -->
+    <section id="careers" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-mon-maroon tracking-tight mb-4">Career Prospects</h2>
+                <p class="text-slate-600 mb-6">MNC graduates step into critical roles that bridge traditional community groups with institutional international development partners.</p>
+                <ul class="space-y-4 text-sm text-slate-700">
+                    <li class="flex items-start gap-3">
+                        <span class="text-mon-gold text-lg mt-0.5">➔</span>
+                        <span><strong>NGO Project Coordinators:</strong> Managing logistics, reporting, and implementation for regional community development organizations.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-mon-gold text-lg mt-0.5">➔</span>
+                        <span><strong>Education Administrators:</strong> Serving as administrative staff within the Mon National School network to manage clusters.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-mon-gold text-lg mt-0.5">➔</span>
+                        <span><strong>Social Entrepreneurs:</strong> Establishing sustainable, agriculture-based community cooperatives or local micro-enterprises.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-mon-maroon p-8 rounded-2xl text-white shadow-lg">
+                <h3 class="font-bold text-xl mb-6 text-mon-amber">Common Job Titles</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                    <div class="p-3 bg-white/10 rounded border border-white/20">Community Project Officer</div>
+                    <div class="p-3 bg-white/10 rounded border border-white/20">School Administrator</div>
+                    <div class="p-3 bg-white/10 rounded border border-white/20">NGO Logistics Lead</div>
+                    <div class="p-3 bg-white/10 rounded border border-white/20">Operations Specialist</div>
+                    <div class="p-3 bg-white/10 rounded border border-white/20">Field Research Liaison</div>
+                    <div class="p-3 bg-white/10 rounded border border-white/20">PR Assistant</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Admissions Requirements -->
+    <section class="py-16 bg-stone-100 border-y border-stone-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 text-center sm:text-left flex flex-col sm:flex-row items-center gap-8">
+                <div class="w-24 h-24 flex-shrink-0 bg-mon-cream rounded-full border-4 border-mon-gold flex items-center justify-center text-4xl">📝</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-3">Admissions Requirements</h2>
+                    <ul class="text-sm text-slate-600 space-y-2 list-disc list-inside">
+                        <li>Completion of High School within the Mon National School system (or equivalent).</li>
+                        <li>Demonstrated commitment to localized community service and civil society.</li>
+                        <li>Baseline proficiency in Mon and Burmese languages.</li>
+                        <li>Submission of a personal motivation letter detailing community goals.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Student Testimonials -->
+    <section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-mon-maroon tracking-tight">Student Voices</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-orange-50 relative">
+                <span class="text-6xl text-mon-gold/20 absolute top-4 left-4 font-serif">"</span>
+                <p class="text-slate-600 italic relative z-10 mb-6 mt-4">
+                    "Studying at MNC gave me the confidence to write grant proposals and manage budgets. I am now using these exact skills to help fund my village's independent health clinic."
+                </p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-slate-200 rounded-full"></div>
+                    <div>
+                        <p class="font-bold text-slate-900 text-sm">Mi Nai</p>
+                        <p class="text-xs text-slate-500">Alumni, Class of 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-orange-50 relative">
+                <span class="text-6xl text-mon-gold/20 absolute top-4 left-4 font-serif">"</span>
+                <p class="text-slate-600 italic relative z-10 mb-6 mt-4">
+                    "Being able to learn organizational management in my mother tongue made the complex topics so much clearer. It deeply connected my education to my heritage."
+                </p>
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-slate-200 rounded-full"></div>
+                    <div>
+                        <p class="font-bold text-slate-900 text-sm">Min Aung</p>
+                        <p class="text-xs text-slate-500">Current Student, Year 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FAQ Section -->
+    <section id="faq" class="py-16 bg-white border-t border-orange-100">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Frequently Asked Questions</h2>
+            </div>
+            <div class="space-y-4">
+                <div class="bg-mon-cream p-5 rounded-lg border border-orange-50">
+                    <h3 class="font-bold text-slate-900 mb-2">Are there scholarships available?</h3>
+                    <p class="text-sm text-slate-600">Yes, MNEC offers partial and full financial support for students demonstrating high community commitment and financial need.</p>
+                </div>
+                <div class="bg-mon-cream p-5 rounded-lg border border-orange-50">
+                    <h3 class="font-bold text-slate-900 mb-2">Can I apply if I didn't graduate from a Mon National School?</h3>
+                    <p class="text-sm text-slate-600">Yes. While MNC prioritizes Mon National School graduates, students with equivalent government or private high school degrees who show strong language skills and community dedication are welcome to apply.</p>
+                </div>
+                <div class="bg-mon-cream p-5 rounded-lg border border-orange-50">
+                    <h3 class="font-bold text-slate-900 mb-2">Does the College provide accommodation?</h3>
+                    <p class="text-sm text-slate-600">MNC provides basic dormitory facilities for students traveling from distant townships or rural regions on a priority basis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Apply Now CTA -->
+    <section id="apply" class="py-20 bg-mon-maroon text-center">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to Lead Your Community?</h2>
+            <p class="text-red-200 mb-8 max-w-xl mx-auto text-sm sm:text-base">
+                Take the next step in your educational journey. Contact our admissions team today to request application forms and term dates.
+            </p>
+            <a href="mailto:admissions@monnationalcollege.edu" class="inline-block bg-mon-gold hover:bg-mon-amber text-slate-900 font-bold px-8 py-3.5 rounded-xl shadow-lg transition tracking-wide">
+                Contact Admissions Desk
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 text-xs py-8 text-center border-t border-slate-900">
+        <p>&copy; 2026 Mon National College. Supported by the Mon National Education Committee (MNEC). All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
